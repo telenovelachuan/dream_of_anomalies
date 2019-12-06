@@ -13,6 +13,9 @@ The pattern of the entire dataset looks two-phase splitted. Before 2/25/2014, al
 	- whether the data point is a week day
 	
 3. Plot values that are during day and during night respectively
+e.g. ![distribution of values during daylight](https://github.com/telenovelachuan/dream_of_anomalies/blob/master/reports/figures/feature%20exploration/distribution%20of%20values%20during%20daylight.png)
+
+e.g. ![distribution of values during weekdays](https://github.com/telenovelachuan/dream_of_anomalies/blob/master/reports/figures/feature%20exploration/distribution%20of%20values%20during%20weekdays.png)
 
 4. Plot values that are during weekday and weekends
 
