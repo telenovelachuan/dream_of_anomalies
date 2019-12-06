@@ -25,11 +25,11 @@ The pattern of the entire dataset looks two-phase splitted. Before 2/25/2014, al
 Isolation forest, one class SVM and local outlier factor are respectively used to conduct anomaly detection on the CPU utilization data.
 
 For each model, the input dataset has been standardized using StandardScaler on the below attributes:
-	- value
-	- hours
-	- daylight
-	- day of the week
-	- is week day or not
+- value
+- hours
+- daylight
+- day of the week
+- is week day or not
 
 The models predict anomalies on the dataset, and a scattered chart is plotted for each model on all the normal data points and anomaly data points, with X-axis being the date, and Y-axis being the CPU utilization value.
 
