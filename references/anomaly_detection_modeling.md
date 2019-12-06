@@ -11,12 +11,12 @@ For each model, the input dataset has been standardized using StandardScaler on 
 
 The models predict anomalies on the dataset, and a scattered chart is plotted for each model on all the normal data points and anomaly data points, with X-axis being the date, and Y-axis being the CPU utilization value.
 
-For example, below is the anomalies predicted by isolation forest.
+For example, below is the scattered plot with anomalies predicted by isolation forest.
 ![anml_by_IF](https://github.com/telenovelachuan/dream_of_anomalies/blob/master/reports/figures/anomaly%20detection%20modeling/anomalies%20by%20isolation%20forest%20in%20scattered%20plot.png)
 
 Besides, a histogram is plotted to visualize the frequency distribution of normal value data and anomaly value data, so that it could be observed in which distribution bins do the anomalies come from.
 
-For example, below is the anomalies predicted by isolation forest.
+For example, below is the value distribution histogram with anomalies predicted by isolation forest.
 ![anml_by_IF_hist](https://github.com/telenovelachuan/dream_of_anomalies/blob/master/reports/figures/anomaly%20detection%20modeling/anomalies%20by%20isolation%20forest%20in%20histogram.png)
 
 
